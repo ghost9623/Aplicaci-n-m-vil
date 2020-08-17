@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:orientation="vertical"
+    tools:context=".view.MedicineDetailsActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgPhoto"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="NOTA: TODA LA INFORMACION QUE SE MUESTRA ES UNICAMENTE INFORMATIVA.\nSI NECESITAS UNA RECETA O BUSCAS UN MEDICAMENTO ESPECIFICO POR FAVOR VISITA A UN MEDICO DE CONFIANZA."
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_title" />
+            <!-- Monware Clinical contiene artículos sobre cuestiones médicas. Sin embargo, no es posible garantizar la veracidad del contenido en los artículos, ya que estos pueden presentar errores, falsedades o desactualizaciones. Aunque la información pueda ser correcta o fiable y su contenido estar bien documentado, es posible que lo que se describa no corresponda con una situación de salud específica.
+
+La información médica y terapéutica que ofrece Wikipedia, en especial sobre farmacoterapia, es en el mejor de los casos de naturaleza general y no puede sustituir el consejo de un médico u otro profesional de la salud.
+
+Ningún colaborador, administrador, programador, patrocinador ni cualquier otra persona relacionada con Wikipedia es responsable del resultado ni de las consecuencias que pudiera ocasionar cualquier intento de utilizar la información o desinformación que se ofrece en esta enciclopedia. Por lo tanto, cualquier uso que se haga de la información contenida en cualquier artículo sobre temas de medicina (especialmente en cuanto al tratamiento de enfermedades se refiere) será única y exclusivamente responsabilidad del lector.
+-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Nombre"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_sub_title" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Descripción"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_sub_title" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Desc"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="¿Esta disponible?"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_sub_title" />
+
+            <TextView
+                android:id="@+id/txtIsAvailable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="IsAvailable"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Administración"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_sub_title" />
+
+            <TextView
+                android:id="@+id/txtRouteOfAdministration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="ROA"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Excreción"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_sub_title" />
+
+            <TextView
+                android:id="@+id/txtExcretion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Excretion"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txt_text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

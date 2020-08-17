@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256002037413",
+    "firebase_url": "https://monstersoft-8f986.firebaseio.com",
+    "project_id": "monstersoft-8f986",
+    "storage_bucket": "monstersoft-8f986.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256002037413:android:427aeab5e5a31951ca5f4c",
+        "android_client_info": {
+          "package_name": "com.monwareclinical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256002037413-hudo1ovmgiao62bj3esvefk8bqbo9qdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monwareclinical",
+            "certificate_hash": "338adc1c7808593f2ebb52e59e41803cb81b64ed"
+          }
+        },
+        {
+          "client_id": "256002037413-dsv3d3oetsa4cdnpcv0kek58kp3vt4gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABXydcBmWpBfhVnNjaORBI8ZUH5wYe8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256002037413-dsv3d3oetsa4cdnpcv0kek58kp3vt4gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

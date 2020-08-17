@@ -1,0 +1,7 @@
+<resources>
+    <!-- Text -->
+    <dimen name="txt_title">18sp</dimen>
+    <dimen name="txt_sub_title">15sp</dimen>
+    <dimen name="txt_text">12sp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Monware Clinical</string>
+
+    <!-- LOGIN  -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="sign_up_me">Registrarme</string>
+
+    <!-- FORGOTTEN PASSWORD  -->
+    <string name="send_email">Enviar correo</string>
+
+    <!-- SIGN UP -->
+    <string name="sign_up">Registrarme</string>
+    <string name="first_name">Nombres</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repetir contraseña</string>
+
+    <!-- MENU -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_building">Clinica</string>
+    <string name="menu_medicines">Medicamentos</string>
+
+    <!-- FIREBASE -->
+    <string name="fb_table_users">users</string>
+    <string name="fb_table_clinic">clinic</string>
+    <string name="fb_table_doctors">doctors</string>
+    <string name="fb_table_clinic_books">clinic_books</string>
+    <string name="fb_table_clinic_medicines">medicines</string>
+    <string name="fb_auth_failed">Error al autenticar</string>
+
+    <!-- EDIT PROFILE -->
+    <string name="save">guardar</string>
+    <string name="old_email">Email antiguo</string>
+    <string name="new_email">Email nuevo</string>
+    <string name="old_password">Contraseña antigua</string>
+    <string name="new_password">Contraseña nueva</string>
+    <string name="repeat_new_password">Repetir contraseña nueva</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="search">Buscar</string>
+
+
+</resources>

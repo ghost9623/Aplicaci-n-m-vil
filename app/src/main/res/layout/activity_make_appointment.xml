@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.MakeAppointmentActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="Asigname un título"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt_title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white_edittext"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Titulo de recordatirio"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="#9E9E9E"
+            android:textSize="@dimen/txt_sub_title"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="Seleciona un doctor"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt_title"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDoctors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="¿Que día sera tu cita?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt_title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white_edittext"
+            android:clickable="true"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawableTint="#2208DC"
+            android:focusable="false"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="DD-MM-AAAA"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingEnd="10dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="#9E9E9E"
+            android:textSize="@dimen/txt_sub_title"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry" />
+        <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="¿Deseas mostrar citas ocupadas?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt_title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/rbYes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Si" />
+
+            <RadioButton
+                android:id="@+id/rbNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="No" />
+        </LinearLayout>
+        -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="¿A que hora sera tu cita?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt_title"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/sbConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            app:animation_duration="200"
+            app:area_margin="4dp"
+            app:border_radius="35dp"
+            app:outer_color="#F0326E"
+            app:text="Desliza para confirmar"
+            app:text_size="@dimen/txt_title" />
+    </LinearLayout>
+</LinearLayout>
